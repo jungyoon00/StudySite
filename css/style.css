@@ -1,0 +1,245 @@
+
+.hidden {
+    display: none;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 8px 12px;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica;
+}
+
+.navbar__menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar__menu li {
+    padding: 8px 30px;
+}
+
+.navbar__menu li:hover {
+    border-bottom: 2px solid white;
+}
+
+.timer {
+    text-align: center;
+}
+
+.seView {
+  text-align: center;
+}
+
+.seView span {
+    background-color: transparent;
+    color: white;
+    font-family: Helvetica Bold;
+}
+
+.timer button {
+  border: none;
+  background-color: transparent;
+  font-family: Helvetica;
+  font-size: 5px solid;
+  color: white;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.timer button:hover {
+    border-bottom: 1px solid white;
+}
+
+.show_time {
+  background-color: transparent;
+  color: white;
+  font-family: Helvetica Bold;
+  text-shadow: 3px 3px 3px grey;
+}
+
+#clock {
+    margin-top: 200px;
+    margin-bottom: 70px;
+    font-family: Helvetica;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+    color: white;
+}
+
+.stopwatch_style {
+  font-family: Helvetica;
+  font-size: 27px;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 3px grey;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.stopwatch_start {
+  font-family: Helvetica;
+  font-size: 27px;
+  color: rgba(129, 252, 88, 0.933);
+  text-align: center;
+  text-shadow: 3px 3px 3px grey;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.stopwatch_end {
+  font-family: Helvetica;
+  font-size: 27px;
+  color: rgba(255, 51, 0, 0.938);
+  text-align: center;
+  text-shadow: 3px 3px 3px grey;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+
+
+
+h1 {
+    margin-top: 80px;
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+}
+
+#settings {
+    text-align: center;
+}
+
+label {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+}
+
+.checkbox {
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.lines:focus {
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+
+#keywords {
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.enter {
+    border: none;
+    width: 50px;
+    height: 33px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-family: Helvetica;
+    background-color: rgba(77, 77, 77, 0.497);
+    color: white;
+}
+
+.enter:hover {
+    background-color: rgba(109, 109, 109, 0.497);
+}
+
+#keywords {
+    width: 500px;
+    height: 32px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    font-family: Helvetica;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgba(77, 77, 77, 0.497);
+    color: white;
+}
+
+.input_todos {
+    width: 300px;
+    height: 32px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    font-family: Helvetica;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgba(62, 62, 62, 0.723);
+    color: white;
+}
+
+.input_todos::placeholder {
+    color: white;
+    font-family: Helvetica;
+}
+
+#sort {
+    text-align: center;
+}
+
+#result {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: medium;
+    background-color: rgba(51, 50, 50, 0.719);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+#todo-form {
+    text-align: center;
+}
+
+.todo_style {
+    list-style-type: none;
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.todo_style li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#todo-list li .button_style {
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
+
+#todo-box {
+    background-color: rgba(51, 50, 50, 0.658);
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+}

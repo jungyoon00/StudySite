@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>MyApp</title>
+</head>
+<body>
+    <nav class="nav_bar">
+        <ul class="navbar__menu">
+            <li><a href="">Home</a></li>
+            <li><a href="gpt.html">chatGPT</a></li>
+            <li><a href="todo.html">ToDo</a></li>
+        </ul>
+    </nav>
+    <h2 id="clock">00:00:00</h2>
+    <div class="box">
+        <div class="timer">
+            <button id="startBtn">START</button>
+            <button id="resetBtn">RESET</button>
+        </div>
+        <div class="seView">
+            <span id="startview"></span>
+            <span>~</span>
+            <span id="endview"></span>
+        </div>
+        <div class="stopwatch_form">
+            <div id="stopwatch" class="stopwatch_style">00:00:00</div>
+        </div>
+    </div>
+    <script src="js/clock.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/background.js"></script>
+</body>
+</html>

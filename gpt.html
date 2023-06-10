@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>MyApp</title>
+</head>
+<body>
+    <nav class="nav_bar">
+        <ul class="navbar__menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">chatGPT</a></li>
+            <li><a href="todo.html">ToDo</a></li>
+        </ul>
+    </nav>
+    <div class="box">
+        <div>
+            <h1>Result</h1>
+            <div id="sort"><div id="result"><br><br><br><br></br></br></br></br></div></div>
+        </div>
+        <div style="text-align: center">
+            <label for="keywords">Keywords:</label>
+            <input type="text" id="keywords" name="keywords" required />
+            <button class="enter" onclick="search()" >Enter</button>
+        </div>
+    </div>
+    <script src="js/gpt.js"></script>
+    <script src="js/background.js"></script>
+</body>
+</html>

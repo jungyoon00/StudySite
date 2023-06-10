@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav_bar">
+        <ul class="navbar__menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gpt.html">chatGPT</a></li>
+            <li><a href="">ToDo</a></li>
+        </ul>
+    </nav>
+    <h1>My ToDos</h1>
+    <form id="todo-form">
+        <span style="color: white; font-family: Helvetica; margin-right: 10px; font-size: 17px;">Enter:</span>
+        <input type="text" class="input_todos" placeholder="Write a To Do and Press Enter" required />
+    </form>
+    <h3 style="text-align: center; color: white; text-shadow: 1px 1px 1px grey;">&lt;My List&gt;</h3>
+    <div id="todo-box">
+        <ul id="todo-list" class="todo_style">
+
+        </ul>
+    </div>
+    <script src="js/todo.js"></script>
+    <script src="js/background.js"></script>
+</body>
+</html>
